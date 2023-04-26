@@ -22,7 +22,7 @@ class JenkinsherokuApplicationTests {
        this.mockMvc.perform(get("/"))
                .andDo(print())
                .andExpect(status().isOk())
-               .andExpect(content().string("Hello Jenkinsq"));
+               .andExpect(content().string("Hello Jenkins"));
    }
 
 }
